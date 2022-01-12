@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Spline Sans', sans-serif;
+    min-height: 100vh;
+    background-image: url('./fabian-mardi-kVKz9qnJC-k-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+#days{
+    margin-right: 50px;
+}
+.bigText{
+    font-size: 6rem;
+    font-weight: bold;
+    padding: 8px;
+
+}
+span{
+    font-size: 2rem;
+    padding: 18px;
+}
+p{
+    padding: 12px;
+}
